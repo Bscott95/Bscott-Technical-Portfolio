@@ -1,0 +1,111 @@
+/* Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Nav bar CSS */
+.title{
+  background-color: #32a89e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav{
+  padding: 15px;    
+}
+
+#about{
+  border-right: 1px solid gray;
+}
+
+#portfolio{
+  border-right: 1px solid gray;
+}
+
+/* CSS for Main */
+.mainSection{
+  background-color: lightgray;
+  height: 100%;
+  padding-top: 1px;
+}
+
+.content{
+  background-color: white;
+  margin: 20px;
+  margin-bottom: 0px;
+  border: 20px;
+  height: auto;
+  padding: 20px;
+}
+
+.content-title{
+  color: #32a89e;
+}
+
+#myPicture{
+  height: auto;
+  width: 100%;
+}
+
+p{
+  color: gray;
+  padding-top: 20px;
+}
+
+/* CSS for footer */
+#seperationBar{
+  background-color: #32a89e;
+  height: 5px;
+}
+
+.box{
+  background-color: gray;
+  height: 100px;
+  text-align: center;
+}
+
+.box p{
+  color: white;
+  display: inline;
+}
+
+#footnote{
+  padding: 40px;
+  color: white;
+}
+
+/* Nav Bar Media Queries */
+/* for size of 768+ */
+@media screen and (min-width:768px){
+  .header{
+      height: 76px;
+  }
+  
+  .title{
+      width: auto; 
+      margin-left: 20px;
+      float: left;
+  }
+
+  .nav{
+      float: right;
+      padding: 18px;
+  }
+
+  #myPicture{
+      height: auto;
+      width: 300px;
+      float: left;
+      clear: right;
+      margin-right: 20px;
+  } 
+}
+
+/* for size of 980+ */
+@media screen and (min-width:980px){
+  .content{
+      width: 940px;
+  }
+}
