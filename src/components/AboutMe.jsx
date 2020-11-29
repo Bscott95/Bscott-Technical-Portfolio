@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "react-bootstrap/nav";
 import 'bootstrap/dist/css/bootstrap.css';
 import './AboutMe.css'
-import myPhoto from './bscott00.jpg'
+import myPhoto from './ImageAssets/bscott00.jpg'
 
 export default function AboutMe() {
   return (

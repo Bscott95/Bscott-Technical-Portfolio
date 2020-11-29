@@ -12,7 +12,7 @@ function App() {
       <Router>
       <Navbar/>
       <Route component={AboutMe}/>
-      <AboutMe/>
+      {/* <AboutMe/> */}
       {/* <Route path='/signup' component={WrappedSignUp}/>
       <Route path='/signin' component={WrappedSignIn}/>
       <Route path="/discover" component={Discover}/>
