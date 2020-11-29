@@ -1,21 +1,21 @@
 /* CSS for footer */
 #seperationBar{
-  background-color: #32a89e;
+  background-color: #495464;
   height: 5px;
 }
 
 .box{
-  background-color: gray;
+  background-color: #e8e8e8;
   height: 100px;
   text-align: center;
 }
 
 .box p{
-  color: white;
+  color: #495464;
   display: inline;
 }
 
 #footnote{
   padding: 40px;
-  color: white;
+  color: #495464;
 }

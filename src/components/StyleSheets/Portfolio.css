@@ -16,7 +16,6 @@
   margin: 20px;
   margin-bottom: 0px;
   border: 20px;
-  /* height: auto; */
   padding: 20px;
   width: 96%;
 }
@@ -25,15 +24,6 @@
   color: #495464;
 }
 
-/* .content-subsection{
-  color: gray;
-} */
-
-.cardContainer{
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; */
-}
 
 .cardShell{
   width: 100%;
@@ -42,16 +32,24 @@
 }
 
 .cardShell img{
-  height: 100px;
-  width: auto;
+  height: auto;
+  width: 150px;
   float: left;
-  /* display: inline-block; */
   margin: 30px;
 }
 
 .cardTextHolder{
   display: inline-block;
   width: 60%;
+  color: #495464;
+}
+
+.cardTitle:hover {
+  color: #bbbfca;
+}
+
+.cardTextHolder p{
+  padding: 0px;
 }
 
 .cardShell p{
