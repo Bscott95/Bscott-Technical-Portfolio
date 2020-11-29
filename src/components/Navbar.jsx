@@ -1,41 +1,44 @@
-import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
-import { Link } from 'react-router-dom';
-
-
+import React from "react";
+import './StyleSheets/Navbar.css'
 
 export default function ButtonAppBar() {
-
   return (
     <div>
-      <AppBar position="static" style={{backgroundColor: '#bbbfca', flexGrow:1}}>
-        <div>
-          <img src="https://lh3.googleusercontent.com/proxy/lKosNCFoSt9DQ-bbo4_Xdbhdw2s_s9PyZxixv7d6mNzWrpBy0PNGCDld1VyTrKdWtnqizI0VDzyI5M91ewFE4bYPXzkZ-Qtx_4ymmSD3OIXtklGRwK5D6S6t0qyD77jLwpOXibUT" alt="my logo" style={{ height: 50, float: 'left' }}></img>
+      <header className="header">
+        {/* <!-- title section --> */}
+        <div className="title">
+        <img
+              src="https://lh3.googleusercontent.com/proxy/lKosNCFoSt9DQ-bbo4_Xdbhdw2s_s9PyZxixv7d6mNzWrpBy0PNGCDld1VyTrKdWtnqizI0VDzyI5M91ewFE4bYPXzkZ-Qtx_4ymmSD3OIXtklGRwK5D6S6t0qyD77jLwpOXibUT"
+              alt="my logo" style={{backgroundColor: 'white', height: 50}}
+            ></img>
         </div>
-        <Toolbar style={{ flexGrow: 1, float:'right'}}>
-          <Button
-            component={Link}
-            to='/'
-            color="inherit">
-            About</Button>
-          <Button
-            to='/discover'
-            component={Link}
-            color="inherit">
-            Portfolio
-          </Button>
-          <Button
-            to='/search'
-            component={Link}
-            color="inherit">
-            Contact
-          </Button>
-          
-          
-        </Toolbar>
-      </AppBar>
+        {/* <!-- Nav bar section --> */}
+        <ul className="nav justify-content-center">
+          <li className="nav-item">
+            <a
+              className="nav-link active text-secondary"
+              id="about"
+              href="about"
+            >
+              About
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className="nav-link text-secondary"
+              id="portfolio"
+              href="portfolio"
+            >
+              Portfolio
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link text-secondary" href="contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </header>
     </div>
   );
 }

@@ -1,0 +1,59 @@
+/* Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* CSS for Main */
+.mainSection{
+  background-color: #f4f4f2;
+  height: 100%;
+  padding-top: 1px;
+}
+
+.content{
+  background-color: white;
+  margin: 20px;
+  margin-bottom: 0px;
+  border: 20px;
+  /* height: auto; */
+  padding: 20px;
+  width: 96%;
+}
+
+.content-title{
+  color: #495464;
+}
+
+/* .content-subsection{
+  color: gray;
+} */
+
+.cardContainer{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; */
+}
+
+.cardShell{
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.cardShell img{
+  height: 100px;
+  width: auto;
+  float: left;
+  /* display: inline-block; */
+  margin: 30px;
+}
+
+.cardTextHolder{
+  display: inline-block;
+  width: 60%;
+}
+
+.cardShell p{
+  /* display: inline; */
+}

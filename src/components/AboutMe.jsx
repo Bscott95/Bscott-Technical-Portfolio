@@ -1,37 +1,12 @@
 import React from "react";
-import Nav from "react-bootstrap/nav";
 import 'bootstrap/dist/css/bootstrap.css';
-import './AboutMe.css'
+// import './../components/StyleSheets/'
+import './StyleSheets/AboutMe.css'
 import myPhoto from './ImageAssets/bscott00.jpg'
 
 export default function AboutMe() {
   return (
     <div>
-      <header className="header">
-        {/* <!-- title section --> */}
-        <div className="title">
-          <h1>Brandon Scott</h1>
-        </div>
-        <Nav
-          activeKey="/home"
-          onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-        >
-          <Nav.Item>
-            <Nav.Link href="/home">Active</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-1">Link</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="disabled" disabled>
-              Disabled
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
-      </header>
 
       {/* <!-- start of the main section --> */}
       <main className="mainSection">
@@ -46,7 +21,7 @@ export default function AboutMe() {
             <img
               id="myPicture"
               src={myPhoto}
-              alt="Picture of me"
+              alt="Pic of me"
             />
             <p>
               Critical to the success of any organization are its leadership and
@@ -67,15 +42,6 @@ export default function AboutMe() {
           </section>
         </section>
       </main>
-      {/* <!-- footer section --> */}
-      <footer>
-        <div id="seperationBar"></div>
-        <div className="box">
-          <div id="footnote">
-            &copy; <p>copyright</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

@@ -1,0 +1,24 @@
+/* Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Nav bar CSS */
+.title{
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav{
+  padding: 15px;    
+}
+
+#about{
+  border-right: 1px solid gray;
+}
+
+#portfolio{
+  border-right: 1px solid gray;
+}

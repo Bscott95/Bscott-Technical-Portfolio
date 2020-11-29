@@ -1,0 +1,105 @@
+/* Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Nav bar CSS */
+.title{
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav{
+  padding: 15px;    
+}
+
+#about{
+  border-right: 1px solid gray;
+}
+
+#portfolio{
+  border-right: 1px solid gray;
+}
+
+/* CSS for Main */
+.mainSection{
+  background-color: lightgray;
+  height: 100%;
+  padding-top: 1px;
+}
+
+.content{
+  background-color: white;
+  margin: 20px;
+  margin-bottom: 0px;
+  border: 20px;
+  height: auto;
+  padding: 20px;
+}
+
+.content-title{
+  color: #32a89e;
+}
+
+.content-subsection{
+  color: gray;
+}
+
+.btn{
+  background-color: #32a89e;
+  border: none;
+}
+
+.btn:hover{
+  background-color: gray;
+}
+
+/* CSS for footer */
+#seperationBar{
+  background-color: #32a89e;
+  height: 5px;
+}
+
+.box{
+  background-color: gray;
+  height: 100px;
+  text-align: center;
+}
+
+.box p{
+  color: white;
+  display: inline;
+}
+
+#footnote{
+  padding: 40px;
+  color: white;
+}
+
+/* 768px+ Media Queries */
+@media screen and (min-width:768px){
+  /* header CSS */
+  .header{
+      height: 76px;
+  }
+  
+  .title{
+      width: auto; 
+      margin-left: 20px;
+      float: left;
+  }
+
+  .nav{
+      float: right;
+      padding: 18px;
+  }
+
+  /* Main CSS */
+  .content{
+      width: 720px;
+  }
+ 
+}
+
