@@ -5,7 +5,9 @@ This portfolio is created using a React Framework and is designed to compliment 
 
 ### links
 
-Deployed App: https://bscott95.github.io/Bscott-Technical-Portfolio/
+Deployed App: Need to update
+<br>
 Github: https://github.com/Bscott95/Bscott-Technical-Portfolio
+<br>
 Main site: http://brandonscott.info/
 
