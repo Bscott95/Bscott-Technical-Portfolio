@@ -1,5 +1,6 @@
 import React from "react";
 import './StyleSheets/Navbar.css'
+import BrandonScottLogo from './ImageAssets/BrandonScottLogo.png'
 
 export default function ButtonAppBar() {
   return (
@@ -8,7 +9,7 @@ export default function ButtonAppBar() {
         {/* <!-- title section --> */}
         <div className="title">
         <img
-              src="https://lh3.googleusercontent.com/proxy/lKosNCFoSt9DQ-bbo4_Xdbhdw2s_s9PyZxixv7d6mNzWrpBy0PNGCDld1VyTrKdWtnqizI0VDzyI5M91ewFE4bYPXzkZ-Qtx_4ymmSD3OIXtklGRwK5D6S6t0qyD77jLwpOXibUT"
+              src={BrandonScottLogo}
               alt="my logo" style={{backgroundColor: 'white', height: 50}}
             ></img>
         </div>
