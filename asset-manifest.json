@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Bscott-Technical-Portfolio/static/css/main.68e8fd23.chunk.css",
+    "main.js": "/Bscott-Technical-Portfolio/static/js/main.5fcdfd88.chunk.js",
+    "main.js.map": "/Bscott-Technical-Portfolio/static/js/main.5fcdfd88.chunk.js.map",
+    "runtime-main.js": "/Bscott-Technical-Portfolio/static/js/runtime-main.25202867.js",
+    "runtime-main.js.map": "/Bscott-Technical-Portfolio/static/js/runtime-main.25202867.js.map",
+    "static/css/2.95f25948.chunk.css": "/Bscott-Technical-Portfolio/static/css/2.95f25948.chunk.css",
+    "static/js/2.03fcc586.chunk.js": "/Bscott-Technical-Portfolio/static/js/2.03fcc586.chunk.js",
+    "static/js/2.03fcc586.chunk.js.map": "/Bscott-Technical-Portfolio/static/js/2.03fcc586.chunk.js.map",
+    "index.html": "/Bscott-Technical-Portfolio/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/Bscott-Technical-Portfolio/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.68e8fd23.chunk.css.map": "/Bscott-Technical-Portfolio/static/css/main.68e8fd23.chunk.css.map",
+    "static/js/2.03fcc586.chunk.js.LICENSE.txt": "/Bscott-Technical-Portfolio/static/js/2.03fcc586.chunk.js.LICENSE.txt",
+    "static/media/EmployeeDirectoryThumbnail.3931df1f.png": "/Bscott-Technical-Portfolio/static/media/EmployeeDirectoryThumbnail.3931df1f.png",
+    "static/media/HypeTypeThumbnail.d4703bed.png": "/Bscott-Technical-Portfolio/static/media/HypeTypeThumbnail.d4703bed.png",
+    "static/media/READMEGeneratorThumbnail.8e968e6d.png": "/Bscott-Technical-Portfolio/static/media/READMEGeneratorThumbnail.8e968e6d.png",
+    "static/media/TemplateEngineThumbnail.005fafb4.png": "/Bscott-Technical-Portfolio/static/media/TemplateEngineThumbnail.005fafb4.png",
+    "static/media/bscott00.d905bf53.jpg": "/Bscott-Technical-Portfolio/static/media/bscott00.d905bf53.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25202867.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.03fcc586.chunk.js",
+    "static/css/main.68e8fd23.chunk.css",
+    "static/js/main.5fcdfd88.chunk.js"
+  ]
+}
