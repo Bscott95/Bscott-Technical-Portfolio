@@ -1,5 +1,6 @@
 import React from "react";
 import './StyleSheets/Navbar.css'
+import { Link } from "react-router-dom"
 import BrandonScottLogo from './ImageAssets/BrandonScottLogo.png'
 
 export default function ButtonAppBar() {
@@ -16,27 +17,27 @@ export default function ButtonAppBar() {
         {/* <!-- Nav bar section --> */}
         <ul className="nav justify-content-center">
           <li className="nav-item">
-            <a
+            <Link
               className="nav-link active text-secondary"
               id="about"
-              href="about"
+              to="/about"
             >
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a
+            <Link
               className="nav-link text-secondary"
               id="portfolio"
-              href="portfolio"
+              to="/portfolio"
             >
               Portfolio
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-secondary" href="contact">
+            <Link className="nav-link text-secondary" to="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </header>
